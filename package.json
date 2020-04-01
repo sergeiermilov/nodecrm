@@ -1,0 +1,19 @@
+{
+  "name": "crm.loc",
+  "version": "1.0.0",
+  "description": "CRM app",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index"
+  },
+  "author": "Sergei Ermilov <uzabila@yandex.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
